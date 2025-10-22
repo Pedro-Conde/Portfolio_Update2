@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NoteBox</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500&family=Zilla+Slab&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Global & Project Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="nana.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="index.html" class="logo">
+      <img src="images/Logo_color2.svg" alt="Pedro Conde Logo" />
+    </a>
+
+    <nav class="nav-links desktop-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link active">Projects</a>
+    </nav>
+
+    <div class="mobile-menu-icon" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <nav class="nav-links mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html" class="active">Projects</a>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="project-page">
+    <!-- Title, Subtitle & Logo -->
+    <h1 class="project-title">NoteBox</h1>
+    <h3 class="project-subtitle">Music Social Hub App Concept & Design</h3>
+    <img src="images/Notebox_Logo.jpg" alt="NaNa Media Logo" class="project-logo" />
+
+    <!-- Software Pills -->
+    <div class="software-container">
+      <span class="software-tag">Figma</span>
+      <span class="software-tag">Canva</span>
+      <span class="software-tag">Photoshop</span>
+    </div>
+
+    <!-- Case Study -->
+    <section class="project-section">
+      <h2>Case Study</h2>
+      <p>
+        NaNa Media was a concept project focused on creating a modern and user-friendly platform for manga sales. 
+        The goal was to integrate intuitive browsing, a wishlist system, and clean branding that resonates with younger audiences.
+      </p>
+    </section>
+
+     <!-- Disciplines & Responsibilities -->
+    <section class="project-section disciplines-responsibilities">
+      <div class="column">
+        <h3>Disciplines</h3>
+        <ul>
+          <li>UX Research</li>
+          <li>UI Design</li>
+          <li>Graphic Design</li>
+          <li>Branding</li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>Responsibilities</h3>
+        <ul>
+          <li>User testing & feedback analysis</li>
+          <li>Wireframing & prototyping</li>
+          <li>Brand creation & logo design</li>
+          <li>Final visual design & mockups</li>
+        </ul>
+      </div>
+    </section>
+    
+    <!-- Inspirations & Brainstorming -->
+    <section class="project-section">
+      <h2>Inspirations & Brainstorming</h2>
+      <p>
+        The visual and functional inspiration came from existing streaming and e-commerce platforms. 
+        I studied apps like Crunchyroll, Spotify, and Amazon to balance entertainment design with efficient shopping flow.
+      </p>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="project-section">
+      <h2>Project Overview</h2>
+      <p>
+        This project blends UX research, interface design, and graphic branding into a single cohesive product. 
+        My main focus was ensuring accessibility and user clarity while building a recognizable brand identity.
+      </p>
+    </section>
+
+    <!-- Branding (Style Guide) -->
+    <section class="project-section">
+      <h2>Branding</h2>
+      <div class="branding-guide">
+        <div class="branding-item">
+          <h4>Colors</h4>
+          <div class="color-swatch" style="background:#00c2cb;"></div>
+          <div class="color-swatch" style="background:#8c52ff;"></div>
+          <div class="color-swatch" style="background:#ff4d6d;"></div>
+          <div class="color-swatch" style="background:#f2efeb;"></div>
+          <div class="color-swatch" style="background:#241945;"></div>
+        </div>
+        <div class="branding-item">
+
+  <h4>Typography</h4>
+<p class="font-sample" style="font-family: 'IBM Plex Sans', sans-serif; font-weight: 400;">IBM Plex Sans Regular</p>
+<p class="font-sample" style="font-family: 'IBM Plex Sans', sans-serif; font-weight: 700;">IBM Plex Sans Bold</p>
+</div>
+
+        <div class="branding-item">
+  <h4>Icons</h4>
+  <div class="icon-grid">
+    <img src="notebox/home_nb_2.svg" alt="Icon 1">
+    <img src="notebox/search_nb_2.svg" alt="Icon 2">
+    <img src="notebox/fire_nb_2.svg" alt="Icon 3">
+    <img src="notebox/menu_nb_2.svg" alt="Icon 4">
+    <img src="notebox/home_nb.svg" alt="Icon 5">
+    <img src="notebox/search_nb.svg" alt="Icon 6">
+    <img src="notebox/fire_nb.svg" alt="Icon 7">
+    <img src="notebox/menu_nb.svg" alt="Icon 8">
+  </div>
+      </div>
+    </section>
+
+    <!-- Final Designs (Carousel with 2 wireframes at once) -->
+    <section class="project-section">
+  <h2>Final Designs</h2>
+  <div class="carousel-container">
+    <button class="carousel-btn prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+
+    <div class="carousel-slide active">
+      <div class="wireframe-group">
+        <h4>Home Page & User Page</h4>
+        <img src="notebox/NoteBox Wireframes.jpg" alt="Home Page Wireframe">
+        <img src="notebox/NoteBox Wireframes (1).jpg" alt="User Page Wireframe">
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <div class="wireframe-group">
+        <h4>Album Page & Friends Page</h4>
+        <img src="notebox/NoteBox Wireframes (2).jpg" alt="Wishlist Page Wireframe">
+        <img src="notebox/NoteBox Wireframes (3).jpg" alt="Product Page Wireframe">
+      </div>
+    </div>
+
+    <button class="carousel-btn next-btn" onclick="changeSlide(1)">&#10095;</button>
+  </div>
+</section>
+
+    <!-- Navigation Buttons -->
+    <div class="button-row">
+      <a href="next-project.html" class="brand-button">See Next Project</a>
+      <a href="projects.html" class="brand-button">Go Back to Projects</a>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <img src="images/Logo_dark.svg" alt="Logo" class="footer-logo" />
+        <p>&copy; 2025 Pedro Conde. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <a href="mailto:pedroconde12345@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/pedro-conde-a62245355/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/hirohtm/" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="main.js"></script>
+  <script>
+    // Navbar highlight
+    const links = document.querySelectorAll('.nav-link, .mobile-nav a');
+    const path = window.location.pathname.split("/").pop();
+    links.forEach(link => {
+      link.classList.toggle("active", link.getAttribute("href") === path);
+    });
+
+    // Carousel logic
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.carousel-slide');
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+      });
+    }
+
+    function changeSlide(direction) {
+      currentSlide += direction;
+      if (currentSlide >= slides.length) currentSlide = 0;
+      if (currentSlide < 0) currentSlide = slides.length - 1;
+      showSlide(currentSlide);
+    }
+
+    showSlide(currentSlide);
+  </script>
+</body>
+</html>

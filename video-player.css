@@ -1,0 +1,25 @@
+/* video-player.css */
+
+/* Center the video and make it responsive */
+.project-video {
+  display: block;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* Optional: add a subtle hover effect */
+.project-video:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-video {
+    max-width: 95%;
+  }
+}
